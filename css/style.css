@@ -1,0 +1,738 @@
+/* common css start */
+
+/* import for google font start */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap');
+
+/* import for google font end */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ol,
+li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ol,
+ul,
+li,
+i,
+b,
+button,
+div,
+img,
+p,
+br,
+hr,
+del,
+u,
+section,
+header,
+footer,
+span,
+input,
+form,
+textarea,
+.btn,
+.navbar,
+.navbar-brand,
+table,
+tr,
+td,
+tbody,
+th,
+thead {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* common css end */
+
+/* header_part_start */
+.manu_part {
+    background-color: #d6eaf8;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.manu .nav-item .nav-link {
+    padding: 20px 20px;
+    transition: 0.6s;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.active,
+.manu .nav-item:hover .nav-link {
+    background-color: #aed6f1;
+    color: #212f3c;
+}
+
+/* header_part_end */
+
+/* banner_part_start */
+.banner_section {
+    background: url(../img/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 170px 0;
+}
+
+.slide_content h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #566573;
+}
+
+.slide_content h2 {
+    color: #222222;
+    font-size: 35px;
+    padding: 5px 0;
+    text-transform: capitalize
+}
+
+.slide_content h1 {
+    color: #117a65;
+    font-size: 40px;
+}
+
+.slide_content p {
+    font-size: 16px;
+    color: #85929e;
+    padding: 5px 0;
+}
+
+.content_btn_img {
+    position: relative;
+}
+
+.content_btn_text {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+
+.content_btn_text a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #117a65;
+    text-transform: capitalize;
+}
+
+.content_btn_img {
+    padding-top: 5px;
+}
+
+/* banner_part_end */
+
+/* add_part-start */
+.add_part {
+    padding: 50px 0;
+}
+
+.add_img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #e0e6ebed;
+    padding: 30px 0 50px;
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.601);
+}
+
+.add_img img {
+    padding-bottom: 10px;
+}
+
+.add_cont h5 {
+    padding: 5px 8px;
+    background-color: pink;
+    text-transform: capitalize;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 16px;
+    left: 40px;
+    color: #316d5a;
+}
+
+.add_cont_2nd h5 {
+    padding: 5px 8px;
+    background-color: #aef1db;
+    text-transform: capitalize;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 16px;
+    left: 40px;
+    color: #174737;
+}
+
+.add_cont_3rd h5 {
+    padding: 5px 8px;
+    background-color: #aed6f1;
+    text-transform: capitalize;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 16px;
+    left: 40px;
+    color: #11540e;
+}
+
+.add_cont_4th h5 {
+    padding: 5px 8px;
+    background-color: #5499c7;
+    text-transform: capitalize;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 16px;
+    left: 40px;
+    color: #fff;
+}
+
+.add_cont_5th h5 {
+    padding: 5px 8px;
+    background-color: #c39bd3;
+    text-transform: capitalize;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 16px;
+    left: 40px;
+    color: #0efff4c7;
+}
+
+.add_cont_6th h5 {
+    padding: 5px 8px;
+    background-color: #edbb99;
+    text-transform: capitalize;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 16px;
+    left: 40px;
+    color: #cd6e08;
+}
+
+/* add_part-end */
+
+
+/* common_heading start*/
+.common_heading {
+    padding: 40px 0 55px;
+}
+
+.common_heading h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.common_heading p {
+    font-size: 16px;
+    color: #85929e;
+    text-transform: capitalize;
+    line-height: 1.6;
+}
+
+/* common_heading end*/
+
+/* featured part start */
+.featured_part {
+    padding: 30px 0;
+}
+
+.featured_item {
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #d7dde2;
+    margin-top: 30px;
+}
+
+.featured_item .featured_img img {
+    border-radius: 20px;
+}
+
+.featured_item:hover {
+    box-shadow: 0 0 8px #000000a9;
+    transition: 0.6s;
+}
+
+.featured_content h6 {
+    font-size: 16px;
+    color: #85929e;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 4px 0;
+}
+
+.featured_content h5 {
+    color: #222222;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+}
+
+.featured_content h5:hover {
+    color: #117a65;
+    transition: 0.4s;
+}
+
+.featured_content .star_in_featured i {
+    color: #ffc253;
+    transition: 0.4s;
+}
+
+.featured_content .star_in_featured i:hover {
+    color: orange;
+}
+
+.featured_content .doller {
+    padding: 5px 0;
+    color: #117a65;
+}
+
+.featured_content .add_to_cart_featured {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #09f34321;
+    margin-left: -20px;
+    color: #117a65;
+    transition: 0.6s;
+}
+
+.featured_content .add_to_cart_featured:hover {
+    background-color: #117a65;
+    color: #ffff;
+}
+
+.card_featured {
+    padding: 17px 10px 0px;
+}
+
+/* featured part end */
+
+/* repair_banner part start */
+.repair_banner {
+    background: url(../img/banner/b2.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.repair_content h5 {
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.repair_content h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    padding: 10px 0 20px;
+}
+
+.repair_content a {
+    padding: 10px 15px;
+    color: black;
+    background-color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.repair_content a:hover {
+    background-color: rgba(15, 255, 239, 0.971);
+    color: #fff;
+}
+
+/* repair_banner part end */
+
+/* multiple_banner_part start */
+.multiple_banner {
+    padding: 35px 0;
+}
+
+.multiple_img {
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 97px 30px;
+}
+
+.multiple_img .multi_main {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.multiple_img h4 {
+    color: #fff;
+    text-transform: capitalize;
+    padding: 8px 0;
+}
+
+.multiple_img p {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.multiple_img a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.multiple_img .multi_last {
+    padding-bottom: 15px;
+}
+
+.multiple_item {
+    padding: 10px 0;
+}
+
+.multiple_item img {
+    height: 250px;
+}
+
+/* multiple_banner_part end */
+
+/* singup_part start */
+.singup_part {
+    background: url(../img/banner/singup_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.sing_up_btn_width {
+    width: 65%;
+    height: 15px;
+
+}
+
+.form_width {
+    padding: 12px 8px;
+}
+
+.btn_sing_padd {
+    padding: 12px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #117a65;
+    color: white;
+    border-color: #117a65;
+}
+
+.btn_sing_padd:hover {
+    background-color: #0a9c7e;
+    color: white;
+    border-color: #0a9c7e;
+}
+
+.singup_part h4 {
+    color: #fff;
+    text-transform: capitalize;
+    padding: 8px 0;
+}
+
+.singup_part p {
+    color: #737373;
+    text-transform: capitalize;
+}
+
+.singup_part span {
+    color: orange;
+}
+
+/* singup_part end */
+
+/* =================================shop_part_start ==========================*/
+.shop_part {
+    padding: 30px 0;
+}
+
+.shop_banner_section {
+    background: url(../img/banner/b1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 150px 0;
+
+}
+
+.shop_banner_section .slide_content h1 {
+    color: white;
+}
+
+.shop_banner_section .slide_content p {
+    color: white;
+}
+
+.another_page_link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.another_page_link h4 {
+    padding: 8px 15px;
+    background-color: #117a65;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.another_page_link a {
+    padding: 8px 15px;
+    background-color: #117a65;
+    color: #fff;
+
+}
+
+/* =================================shop_part_end ============================= */
+
+/* =======================single_product_details part start ==========*/
+.single_product_details_part {
+    padding: 100px 0 40px;
+}
+
+.add_to_cart_btn {
+    padding: 8px 10px;
+    background-color: #11540e;
+    color: white;
+}
+.add_to_cart_btn:hover{
+    color: white;
+}
+
+.ditails_contant h6 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.ditails_contant h5 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.ditails_contant  h4{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.ditails_contant h5{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.ditails_contant p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(109, 108, 108);
+    line-height: 1.6;
+} 
+
+.details_img img:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.676);
+    transition: 0.6s;
+}
+/* =======================single_product_details part end=========*/
+
+
+/*=========================== blog part start================= */
+.blog_part {
+    padding: 30px 0;
+}
+
+.blog_banner_section {
+    background: url(../img/banner/b19.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 150px 0;
+
+}
+
+.blog_banner_section .slide_content h1 {
+    color: white;
+}
+
+.blog_banner_section .slide_content p {
+    color: white;
+}
+.blog_reading_part{
+    padding:50px 0;
+}
+.blog_img_heading{
+    position: absolute;
+}
+.blog_img_heading h1{
+    font-size: 90px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: rgb(127, 121, 121);
+}
+.blog_img img{
+    position: relative;
+    top: 80px;
+    height: 400px;
+    display: inline;
+    padding-bottom: 60px;
+    width: 440px;
+}
+.blog_content{
+    padding-top: 150px;
+}
+.blog_item{
+    padding: 50px 0;
+}
+.blog_img_heading h1{
+    padding-left: 140px;
+}
+.blog_content h4{
+    text-transform: capitalize;
+    padding: 8px 0;
+}
+.blog_content p{
+    line-height: 1.6;
+    padding: 8px 0;
+}
+
+/*=========================== blog part end================== */
+
+
+/*============================ about part start ============================*/
+.about_banner_section{
+    background: url(../img/about/banner.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 150px 0;
+}
+.about_part {
+    padding: 50px 0;
+}
+.about_cont{
+    padding: 25px 0;
+}
+.about_cont h3 {
+    font-size: 70px;
+    text-transform: capitalize;
+    padding: 8px 0;
+}
+.about_cont p{
+    line-height: 1.6;
+    padding: 5px 0;
+}
+.about_cont span{
+    padding: 5px 0;
+}
+.about_vedio video{
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    width: 900px;
+}
+.about_vedio h3{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.about_vedio h3 a{
+    color: rgb(27, 36, 192);
+}
+/*============================ about part end ============================*/
+
+/* =============================contact part start======================== */
+.contant_part{
+    padding: 35px 0;
+}
+.contact_content h6{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(39, 36, 36);
+    text-transform: capitalize;
+    
+}
+.contact_content h4{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #222222;
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+.contact_content h5 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(39, 36, 36);
+    text-transform: capitalize;
+}
+.text-uppercase{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.contact_content{
+    padding: 100px 0;
+}
+.contact_form_part {
+    padding: 40px;
+    border: 2px solid rgb(92, 88, 88);
+    margin: 10px 35px;
+}
+.contact_form_part button{
+    padding: 8px 11px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    border-radius: 0px;
+}
+/* =============================contact part end======================== */
